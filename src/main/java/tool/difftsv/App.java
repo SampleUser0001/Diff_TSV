@@ -37,7 +37,7 @@ public class App {
             .distinct()
             .forEach(key -> {
               try {
-                writer.write(String.format("%s\t%s\t%s\r\n",
+                writer.write(String.format(format,
                   key,
                   file1Map.containsKey(key) ? file1Map.get(key) : "キーが指定されていない",
                   file2Map.containsKey(key) ? file2Map.get(key) : "キーが指定されていない"));

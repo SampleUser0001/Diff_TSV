@@ -15,7 +15,7 @@ public class Model {
     if(splited.length >= 2) {
       for( ; index<splited.length ; index++) {
         tmpValue = splited[index];
-        if(index != splited.length) {
+        if(index != splited.length+1) {
           tmpValue += "\t";
         }
       }
