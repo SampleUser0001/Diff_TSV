@@ -1,0 +1,4 @@
+key	/home/ittimfn/environment/Diff_TSV/sample/file1.tsv	/home/ittimfn/environment/Diff_TSV/sample/file2.tsv
+hoge	1		3	
+piyo	2		キーが指定されていない
+fuga	キーが指定されていない	1	
